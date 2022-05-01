@@ -30,4 +30,4 @@ The architecture should be MVVM.
 - -  Pin markers show up for every entry the API provides
 - -  Coroutines are used, no RxJava or other async methods should be used
 
-GET endpoint: https://drive.google.com/file/d/14IG3sYCHRAU5WyKcfgTUw9LS1Oo0DBF4/view?usp=sharing
+GET endpoint: https://raw.githubusercontent.com/PFJCodeChallenge/pfj-locations/master/locations.json
