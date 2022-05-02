@@ -32,5 +32,6 @@ The architecture should be MVVM.
 
 GET endpoint: https://raw.githubusercontent.com/PFJCodeChallenge/pfj-locations/master/locations.json
 
-![Portrait View Map With Pins](readMeImages/PortraitModeMapWithPins.png "The initial view seen by users when they launch the app and pins populate.")
-![Landscape View Map With Pins](readMeImages/LandscapeModeMapWithPins.png "The landscape view seen by users when they turn the phone.")
+![Portrait View Map With Pins](app/src/main/java/com/pilotflyingj/codechallenge/readMeImages/PortraitModeMapWithPins.png "The initial view seen by users when they launch the app and pins populate.")![image](https://user-images.githubusercontent.com/34871713/166179606-b38b77d6-1d1a-4741-a435-c28e79e7db2c.png)
+
+![Landscape View Map With Pins](app/src/main/java/com/pilotflyingj/codechallenge/readMeImages/LandscapeModeMapWithPins.png "The landscape view seen by users when they turn the phone.")
