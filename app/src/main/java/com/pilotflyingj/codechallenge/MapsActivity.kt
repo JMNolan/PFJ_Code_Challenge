@@ -1,9 +1,7 @@
 package com.pilotflyingj.codechallenge
 
-import android.content.DialogInterface
 import android.os.Bundle
 import androidx.activity.viewModels
-import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap

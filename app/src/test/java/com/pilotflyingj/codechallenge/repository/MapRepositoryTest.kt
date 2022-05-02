@@ -1,22 +1,15 @@
 package com.pilotflyingj.codechallenge.repository
 
-import androidx.lifecycle.MutableLiveData
 import com.pilotflyingj.codechallenge.di.NetworkModule
-import com.pilotflyingj.codechallenge.repository.models.Site
-import com.pilotflyingj.codechallenge.viewmodel.MapsViewModel
-import junit.framework.TestCase
 import junit.framework.TestCase.assertEquals
 import kotlinx.coroutines.runBlocking
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
-import okio.Buffer
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
 import org.mockito.MockitoAnnotations
 import java.io.File
-import java.io.FileReader
-import java.net.HttpURLConnection
 
 class MapRepositoryTest {
 
