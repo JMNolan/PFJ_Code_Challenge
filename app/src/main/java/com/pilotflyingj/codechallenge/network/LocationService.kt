@@ -7,5 +7,5 @@ import retrofit2.http.GET
 interface LocationService {
     // full end point: https://raw.githubusercontent.com/PFJCodeChallenge/pfj-locations/master/locations.json
     @GET ("PFJCodeChallenge/pfj-locations/master/locations.json")
-    suspend fun getLocations() : Response<ArrayList<ApiSiteItem>>
+    suspend fun getLocations() : Response<List<ApiSiteItem>>
 }

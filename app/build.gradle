@@ -48,6 +48,9 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
     implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.junit.jupiter:junit-jupiter'
 
     // DI
     kapt "com.google.dagger:hilt-android-compiler:2.29.1-alpha"
@@ -63,6 +66,8 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation "com.squareup.retrofit2:converter-gson:2.9.0"
     implementation("com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter:0.8.0")
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.7.2")
+
 
     // Unit Tests
     testImplementation 'junit:junit:4.13.1'
@@ -70,6 +75,8 @@ dependencies {
     kaptAndroidTest 'com.google.dagger:hilt-android-compiler:29.1-alpha'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    testImplementation "org.mockito.kotlin:mockito-kotlin:4.0.0"
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.2'
 
     // timber
     implementation 'com.jakewharton.timber:timber:5.0.1'

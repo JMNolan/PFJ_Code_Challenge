@@ -29,7 +29,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         (supportFragmentManager.findFragmentById(R.id.map) as? SupportMapFragment)?.getMapAsync(this)
 
         //check to see if the data list has been populated in the viewModel and execute the api call to populate it if not
-        if (viewModel.locationLiveDataList.value == null){
+        if (viewModel.locationLiveDataList.value == null) {
             viewModel.loadLiveDataIntoList()
         }
     }
