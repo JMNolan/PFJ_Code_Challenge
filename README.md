@@ -31,3 +31,6 @@ The architecture should be MVVM.
 - -  Coroutines are used, no RxJava or other async methods should be used
 
 GET endpoint: https://raw.githubusercontent.com/PFJCodeChallenge/pfj-locations/master/locations.json
+
+![Portrait View Map With Pins](readMeImages/PortraitModeMapWithPins.png "The initial view seen by users when they launch the app and pins populate.")
+![Landscape View Map With Pins](readMeImages/LandscapeModeMapWithPins.png "The landscape view seen by users when they turn the phone.")
